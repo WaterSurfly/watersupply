@@ -1,6 +1,6 @@
 # watersupply
 
-````js
+```js
 const ws = require('watersupply);
 
 ws.get('/', function (req, res) {
@@ -20,4 +20,3 @@ ws.listen(3000);
 ```bash
 npm install watersupply
 ```
-````
