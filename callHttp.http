@@ -1,0 +1,30 @@
+###
+GET http://127.0.0.1:3000/test?a=1&b=2&c=한글
+
+###
+POST http://127.0.0.1:3000/test
+Content-Type: application/json
+
+{
+    "a" : 1,
+    "b" : 2,
+    "c" : "3++++++++apple%20%EC%A5%AC%EC%8A%A4",
+    "d" : 4
+}
+
+###
+POST http://127.0.0.1:3000/test3
+Content-Type: application/json
+
+{
+    "a" : "1",
+    "b" : "2",
+    "c" : "3++++++++apple%20%EC%A5%AC%EC%8A%A4",
+    "d" : 4
+}
+
+###
+PUT http://127.0.0.1:3000/test2
+
+###
+GET http://127.0.1:3000/?a=1&b=2&c=3%2B%2B%2B%2B%2B%2B%2B--------apple%20쥬스&x=шеллы
